@@ -1,0 +1,213 @@
+*{
+	box-sizing: border-box;
+}
+html, body{
+	height: 100%;
+}
+.container{
+	margin: 0 auto;
+	position: fixed;
+	height: 90%;
+	width: 960px;
+	background-image: url("../images/sayagata-400px.png");
+	margin-left: 150px;
+	padding-bottom: 100px;
+}
+header{
+	background: #ffffff;
+	border-bottom: 1px solid #666 ;
+
+}
+h1{
+	color: #4aaaa5;
+	font-size: 20px;
+}
+h2{
+	color: #4aaaa5;
+	font-size: 15px;
+}
+.Name{
+	background: #4aaaa5;
+	color: white;
+	width: 150px;
+	height: 50px;
+	font-size: 20px;
+	padding-top: 18px;
+	margin-left: 100px;
+	position: relative;
+	text-align: center;
+}
+.Pages{
+	position: relative;
+	width: 960px;
+	margin-left: 600px;
+	margin-top: -25px;
+	padding-bottom: 10px;
+}
+.Pages a:link{
+	text-decoration: none;
+	text-decoration-color: #666;
+}
+.Pages a:hover{
+	text-decoration: italic;
+	color: #4aaaa5;
+}
+.wrapper{
+	height: 100%;
+	margin: 0 auto;
+	width: 960px;
+	padding-top: 30px;
+}
+#main-bio{
+	height: 100%;
+	float: left;
+	margin-top: 10px;
+	margin-left: 35px;
+	margin-bottom: 10px;
+	background: #ffffff;
+	width: 650px;
+	padding: 25px 25px;
+	padding-bottom: 500px;
+}
+#main-bio > h1{
+	font-size: 40px;
+}
+#contact-form{
+	height: 100%;
+	float: left;
+	margin-top: 10px;
+	margin-left: 35px;
+	margin-bottom: 10px;
+	padding: 25px 25px;
+	background: #ffffff;
+	width: 650px;
+	padding-bottom: 500px;
+}
+#contact-form > h1{
+	font-size: 40px;
+}
+.row{
+	color: #666;
+	font-size: 25px;
+	padding: 5px 10px;
+}
+#message{
+	margin-top: 10px;
+	border
+}
+#submit_button{
+	background: #4aaaa5;
+	color: white;
+	width: 80px;
+	height: 40px;
+	margin-left: 10px;
+	text-align: center;
+	padding: 10px;
+}
+#bio-image{
+	padding: 10px 10px;
+}
+#bio-image > img{
+	margin-right:10px;
+}
+#contact-info{
+	border: 2px #666;
+	margin-top: 10px;
+	margin-right: 35px;
+	padding: 10px 10px;
+	float: right;
+  width:200px;
+  background: #ffffff;
+}
+#contact-info > h1{
+	text-align: center;
+	font-size: 25px;
+}
+#portfolio{
+	height: 100%;
+	float: left;
+	margin-top: 10px;
+	margin-left: 35px;
+	margin-bottom: 10px;
+	padding: 25px 25px;
+	background: #ffffff;
+	width: 650px;
+	padding-bottom: 500px;
+}
+#portfolio > h1{
+	font-size: 30px;
+}
+#portfolio > img{
+	margin: 10px 60px;
+}
+#hangman{
+	position: absolute;
+	top: 250px;
+	left: 120px;
+	height: 25px;
+	width: 175px;
+	background: #4aaaa5;
+	color: white;
+	text-align: center;
+	padding-top: 5px;
+}
+#rpg{
+	position: absolute;
+	top: 250px;
+	right: 370px;
+	height: 25px;
+	width: 175px;
+	background: #4aaaa5;
+	color: white;
+	text-align: center;
+	padding-top: 5px;
+}
+#trivia{
+	position: absolute;
+	top: 388px;
+	left: 120px;
+	height: 25px;
+	width: 175px;
+	background: #4aaaa5;
+	color: white;
+	text-align: center;
+	padding-top: 5px;
+}
+#widget{
+	position: absolute;
+	top: 388px;
+	right: 370px;
+	height: 25px;
+	width: 175px;
+	background: #4aaaa5;
+	color: white;
+	text-align: center;
+	padding-top: 5px;
+}
+#rock{
+	position: absolute;
+	top: 526px;
+	left: 120px;
+	height: 25px;
+	width: 175px;
+	background: #4aaaa5;
+	color: white;
+	text-align: center;
+	padding-top: 5px;
+}
+.clear{
+	clear: both;
+}
+.footer{
+	position: fixed;
+	bottom: 0;
+	margin: 0 auto;
+	background:#666666;
+	height: 75px;
+	padding-top: 32.5px;
+	width: 960px;
+	color: white;
+	text-align: center;
+	font-size: 10px;
+	border-top: 5px solid #4aaaa5;
+}
